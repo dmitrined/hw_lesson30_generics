@@ -1,11 +1,10 @@
-/*
+package homeTasks.task1;/*
 Задача 1
 Написать generic метод, который считает, сколько раз заданный объект встречается в данном листе.
 Ваш метод должен работать с листом любого типа
 
  */
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Task1 {
