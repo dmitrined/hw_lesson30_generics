@@ -10,20 +10,10 @@ import java.util.List;
 
 public class Task1 {
     public static void main(String[] args) {
-        List<Integer> integerList = new ArrayList<>();
-        integerList.add(1);
-        integerList.add(3);
-        integerList.add(1);
-        integerList.add(2);
-        integerList.add(1);
+        List<Integer> integerList = List.of(1,3,1,2,1);
         System.out.println(countNumberOfObjects(integerList, 1));
 
-        List<String> stringList = new ArrayList<>();
-        stringList.add("jo");
-        stringList.add("mo");
-        stringList.add("jo");
-        stringList.add("flo");
-        stringList.add("jo");
+        List<String> stringList = List.of("jo","mo","jo","flo","jo");
         System.out.println(countNumberOfObjects(stringList, "jo"));
 
 
